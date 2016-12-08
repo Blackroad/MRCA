@@ -1,0 +1,13 @@
+{
+  "web": {
+    "login":"velycv1",
+    "password":"123456",
+    "baseURL":"http://phxm1bappd39:8080/secure/Disposition.jspa",
+    "unitserials":"XMAYWX XMAZAF XMAZEV XMAZT1 XMB2XR XMB2ZY XMB3CD XMB7W4 XME3JK XMFFSL XMFGCM XMFGG2 XMFYPS XMFYV6 XMMXBJ XMNHFB XMSCVM XMSEXE XMSEYH XMW6KR XMW8ZG XMWWCF XND5K1 XND9MC XNHCPX XNHCR1 XNHCT7 XNKAHG XNVEKT"
+  },
+  "mes":{
+    "login":"velycv1",
+    "password":"Drul121314151617",
+    "dom":"ent"
+  }
+}
