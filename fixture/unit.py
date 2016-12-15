@@ -53,8 +53,6 @@ class UnitHelper:
             time.sleep(2)
 
 
-
-
     def open_disposition_window(self,action,list):
         random_serial = random.choice(list)
         self.select_disposition(list, random_serial)
