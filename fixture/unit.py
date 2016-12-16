@@ -151,9 +151,8 @@ class UnitHelper:
 
     def text_presented(self, text):
         wd = self.app.wd
-        element = wd.find_elements_by_xpath("//div[@id='e-sign']")
-        assirt_text = element.text
-        if text == assirt_text:
+        element = wd.find_element_by_xpath("//div[@id='e-sign']").text
+        if text == element:
             return True
         return False
 
