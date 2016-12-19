@@ -149,6 +149,14 @@ class UnitHelper:
         return user_id
 
 
+    def text_presented(self, text):
+        wd = self.app.wd
+        element = wd.find_element_by_xpath("//div[@id='e-sign']").text
+        if text == element:
+            return True
+        return False
+
+
 
 
 
