@@ -1,10 +1,7 @@
 pytest==2.9.0
-suds-jurko
 pytest_bdd
-pillow
 selenium
 jsonpickle
-pony
 pymysql
 
 

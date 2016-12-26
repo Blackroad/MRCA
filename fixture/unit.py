@@ -38,11 +38,12 @@ class UnitHelper:
             MES_list.append(unit_name)
         return MES_list
 
+    #unit_checker
     def open_random_MES(self,action):
         wd = self.app.wd
         list = self.get_MES_serial_list()
         while self.open_disposition_window(action,list)!= True:
-            if len(list)!= 0:
+            if len(list)> 0:
                 continue
             else:
                 print ('No elements in list of units with action = %s' % action)
